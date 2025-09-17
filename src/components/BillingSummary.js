@@ -59,8 +59,6 @@ function BillingSummary() {
                   </div>
                   {/* </div> */}
 
-
-
                   <div className='row'>
                     <div className="col-3">
                       <p className='text-secondary'>Quantity</p>
