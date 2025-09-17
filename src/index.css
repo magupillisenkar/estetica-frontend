@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: none !important
+}
+
+body {
+  background-color: #E2E8F0 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background: black !important;
+  border-radius: 20px !important;
+  color: white !important;
+  margin: 10px !important;
+  border: 1px solid black !important;
+}
+
+.nav-tabs .nav-link {
+  background: white !important;
+  border-radius: 20px !important;
+  color: black !important;
+  margin: 10px !important;
+  border: 1px solid black !important;
+}
+
+.complete-payment-btn {
+  background: linear-gradient(90deg, #7b5cf5, #8b5cf6);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+}
+
+.complete-payment-btn:hover {
+  background: linear-gradient(90deg, #8b5cf6, #7b5cf5);
+}
+.navbar-brand {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #a78bfa; /* Light purple */
+    }
+
+    .navbar-text {
+      font-size: 1rem;
+      color: #6b7280; /* Gray text */
+    }
+
+    .notification-badge {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 8px;
+      height: 8px;
+      background-color: orange;
+      border-radius: 50%;
+    }
+
+    .profile-circle {
+      background-color: #ddd;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .search-input {
+      min-width: 250px;
+    }
