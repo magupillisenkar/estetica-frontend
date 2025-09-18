@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://estetica-backend-9sje.onrender.com/api';
 
 const getAuthHeaders = () => ({
   headers: { Authorization: `Bearer ${Cookies.get('token')}` }

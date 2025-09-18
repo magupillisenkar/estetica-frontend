@@ -11,7 +11,7 @@ function ProductList() {
   const { products, loading } = useSelector(state => state.products);
   const [selectedCategoryId, setSelectedCategoryId] = useState(null);
 
-  const baseimgurl = 'http://localhost:5000/';
+  const baseimgurl = 'https://estetica-backend-9sje.onrender.com/';
   const cartItems = useSelector(state => state.cart.items);
   console.log(cartItems)
 
